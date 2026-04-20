@@ -1,14 +1,37 @@
-p:first-of-type::first-letter{
-  color: green;
-  font-size: 30px;
-  line-height: 1.5em;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
-.citacao{
-  font-style: italic;
+header, footer{
+  flex-shrink: 0;
+  flex-grow: 0;
+  background-color: gray;
+  text-align: center;
+}
+main{
+  flex-shrink: 0;
+  flex-grow: 1;
+  display: flex;
+}
+nav{
+  flex-basis: 10em;
+  flex-shrink: 1;
+  flex-grow: 0;
+  background-color: cornflowerblue;
+}
+aside{
+  flex-basis: 10em;
+  flex-shrink: 1;
+  flex-grow: 0;
+  background-color: darkorange;
+}
+section{
+  background-color: lightgray;
+  flex-shrink: 1;
+  flex-grow: 1;
 }
 
-#span-com-id{
-  color: red;
-}
