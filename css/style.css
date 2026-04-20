@@ -4,3 +4,11 @@ p:first-of-type::first-letter{
   line-height: 1.5em;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.citacao{
+  font-style: italic;
+}
+
+#span-com-id{
+  color: red;
+}
