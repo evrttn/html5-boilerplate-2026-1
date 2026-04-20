@@ -18,13 +18,13 @@ main{
   display: flex;
 }
 nav{
-  flex-basis: 10em;
+  flex-basis: 8em;
   flex-shrink: 1;
   flex-grow: 0;
   background-color: cornflowerblue;
 }
 aside{
-  flex-basis: 10em;
+  flex-basis: 8em;
   flex-shrink: 1;
   flex-grow: 0;
   background-color: darkorange;
@@ -35,3 +35,8 @@ section{
   flex-grow: 1;
 }
 
+@media screen and (max-width: 500px){
+  main{
+    flex-direction: column;
+  }
+}
