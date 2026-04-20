@@ -18,13 +18,13 @@ main{
   display: flex;
 }
 nav{
-  flex-basis: 8em;
+  flex-basis: 25em;
   flex-shrink: 1;
   flex-grow: 0;
   background-color: cornflowerblue;
 }
 aside{
-  flex-basis: 8em;
+  flex-basis: 25em;
   flex-shrink: 1;
   flex-grow: 0;
   background-color: darkorange;
